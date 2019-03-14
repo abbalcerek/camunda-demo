@@ -8,3 +8,7 @@ camunda.bpm:
         create: All tasks
 
 # CamundaBpmConfiguration -> CreateAdminUserConfiguration
+
+logging:
+    level:
+        org.glassfish.jersey.servlet.WebComponent: ERROR
