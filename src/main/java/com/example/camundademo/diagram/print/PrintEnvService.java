@@ -1,4 +1,4 @@
-package com.example.camundademo.diagram;
+package com.example.camundademo.diagram.print;
 
 import org.camunda.bpm.engine.delegate.DelegateExecution;
 import org.camunda.bpm.engine.delegate.JavaDelegate;

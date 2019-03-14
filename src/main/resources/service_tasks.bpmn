@@ -9,12 +9,12 @@
     <bpmn:endEvent id="EndEvent_1rs58ys">
       <bpmn:incoming>SequenceFlow_0yksgax</bpmn:incoming>
     </bpmn:endEvent>
-    <bpmn:serviceTask id="Task_1ad5ph1" name="print task" camunda:class="com.example.camundademo.diagram.PrintService">
+    <bpmn:serviceTask id="Task_1ad5ph1" name="print task" camunda:class="com.example.camundademo.diagram.print.PrintService">
       <bpmn:incoming>SequenceFlow_0fladdm</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_1ro9u20</bpmn:outgoing>
     </bpmn:serviceTask>
     <bpmn:sequenceFlow id="SequenceFlow_0yksgax" sourceRef="Task_1kyd5lj" targetRef="EndEvent_1rs58ys" />
-    <bpmn:serviceTask id="Task_1kyd5lj" name="print env task" camunda:class="com.example.camundademo.diagram.PrintEnvService">
+    <bpmn:serviceTask id="Task_1kyd5lj" name="print env task" camunda:class="com.example.camundademo.diagram.print.PrintEnvService">
       <bpmn:incoming>SequenceFlow_1ro9u20</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0yksgax</bpmn:outgoing>
     </bpmn:serviceTask>
